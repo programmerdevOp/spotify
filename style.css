@@ -93,3 +93,37 @@ body {
 .badge-b:hover {
     font-weight: 800;
 }
+
+
+/* navbar work */
+
+.navbar {
+    height: 66px;
+    background-color: black;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.nav-left{
+    display: flex;
+    align-items: center;
+    /* gap:15px; */
+}
+
+.spotify-img {
+    margin-top: 2px;
+    padding-left: 17px;
+}
+
+.home-ico{
+    background-color: rgb(56, 54, 54);
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 0 20px;
+}
