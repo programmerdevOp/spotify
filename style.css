@@ -54,3 +54,23 @@ body {
 .badge:hover {
     background-color: #383838;
 }
+
+/* .lib-box{
+    background-color: pink;
+    padding: 15px;
+} */
+
+.box {
+    background-color: #232323;
+    /* padding: 3px; */
+    /* margin: 2px; */
+    border-radius: 0.75rem;
+    margin: 0.75rem 0 1.75rem 0;
+    padding: 0.75rem 1rem;
+    height: 8rem;
+}
+
+.box-p1{
+    font-size: 1rem;
+    font-weight: 500;
+}
