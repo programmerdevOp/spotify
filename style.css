@@ -131,3 +131,66 @@ body {
 .home-ico i {
     font-size: 25px;
 }
+
+/* nav center */
+
+.nav-center {
+    display: flex;
+    align-items: center;
+    background-color: #1e1c1c;
+    padding: 10px 15px;
+    border-radius: 30px;
+    width: 420px;
+    gap: 15px;
+    margin-left: 20px;
+}
+
+.nav-center input {
+   flex: 1;
+   background-color: transparent;
+   border: none;
+   outline: none;
+   color: white;
+   font-size: 14px;
+}
+
+/* nav right */
+
+.nav-right {
+    margin-left: 35px;
+}
+
+.nav-right a {
+    text-decoration: none;
+    color: #b3b3b3;
+    font-weight: 600;
+    margin-left: 20px;
+
+}
+
+.nav-right a:hover {
+    color: white;
+}
+
+.divider {
+    height:20px;
+    width:1.5px; 
+    background-color: #b3b3b3;
+    align-items: center;
+    display: inline-block;
+    margin-left: 20px;
+    /* margin-right: 3px; */
+}
+
+.login-btn {
+    padding: 10px 22px;
+    border-radius: 20px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.login-btn:hover{
+    transform: scale(1.05);
+}
